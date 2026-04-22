@@ -9,8 +9,6 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 
 ## 📌 Schema
 
-### 🧱 Entità del sistema
-
 ---
 
 #### 🔹 Evento
