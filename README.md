@@ -7,7 +7,7 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 
 ---
 
-## 📌 Schema
+## 📌 ENTITÀ
 
 ---
 
@@ -57,3 +57,67 @@ Definizione: insieme organizzativo di animati.
 - Annata
 - Numero componenti
 - Sala
+
+---
+
+## 📌 Schema scheletro
+
+---
+
+---
+
+## 📌 Raffinamento Schema scheletro
+
+---
+
+---
+
+## 📌 Vincoli
+
+---
+
+---
+
+## 📌 Modello Entità-Relazione
+
+---
+
+---
+
+## 📌 Traduzione nel modello logico
+
+---
+
+---
+
+## 📌 Ottimizzazione
+
+---
+
+---
+
+## 📌 Tabella delle sale
+
+---
+
+---
+
+## 📌 Modello logico
+
+---
+
+---
+
+## 📌 Schema della base dati
+
+---
+
+---
+
+## 📌 Vincoli di integrità referenziale
+
+---
+
+
+
+
