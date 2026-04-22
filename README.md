@@ -76,6 +76,12 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
+## 📌 Dimensionamento
+
+---
+
+---
+
 ## 📌 Vincoli
 
 ---
