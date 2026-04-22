@@ -7,12 +7,16 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 
 ---
 
-## Schema
+## 📌 Schema
 
-## Evento
+### 🧱 Entità del sistema
+
+---
+
+#### 🔹 Evento
 Definizione: attività organizzata dagli animatori per gli animati.
 
-**Proprietà:**
+**Proprietà**
 - Nome
 - Data
 - Luogo
@@ -20,10 +24,10 @@ Definizione: attività organizzata dagli animatori per gli animati.
 
 ---
 
-## Animatore
+#### 🔹 Animatore
 Definizione: colui che organizza gli eventi.
 
-**Proprietà:**
+**Proprietà**
 - Codice fiscale
 - Nome
 - Cognome
@@ -34,24 +38,23 @@ Definizione: colui che organizza gli eventi.
 
 ---
 
-## Animato
-Definizione: colui che partecipa agli eventi.
+#### 🔹 Animato
+Definizione: partecipante agli eventi.
 
-**Proprietà:**
+**Proprietà**
 - Codice tessera
 - Nome
 - Cognome
 - Data di nascita
-- Luogo di nascita
 - Telefono
 - Indirizzo
 
 ---
 
-## Gruppo
+#### 🔹 Gruppo
 Definizione: insieme organizzativo di animati.
 
-**Proprietà:**
+**Proprietà**
 - Nome
 - Annata
 - Numero componenti
