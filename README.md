@@ -1,4 +1,4 @@
-# database_gestione_parrocchia
+# Database_gestione_parrocchia
 
 ## Descrizione del progetto
 Sistema di gestione di eventi parrocchiali sviluppato in PL/SQL per Oracle Database, con modellazione relazionale, vincoli di integrità, trigger e package procedurali.
