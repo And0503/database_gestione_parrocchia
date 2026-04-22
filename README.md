@@ -78,6 +78,13 @@ Definizione: insieme organizzativo di animati.
 
 ## 📌 Dimensionamento
 
+| Entità    | Numero massimo occorrenze |
+|-----------|----------------------------|
+| Eventi    | max 25                     |
+| Animatori | 30                         |
+| Animati   | max 250                    |
+| Gruppi    | 15                         |
+
 ---
 
 ---
