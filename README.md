@@ -62,10 +62,11 @@ Definizione: insieme organizzativo di animati.
 
 ## 📌 Schema scheletro
 
-<img style="background: white; padding: 6px; border-radius: 8px;"
-     width="806" height="442"
-     alt="schema scheletro"
-     src="https://github.com/user-attachments/assets/f5e10df2-d083-46f4-9fef-258eef5d9cd4" />
+<div style="background-color: white; padding: 10px; border-radius: 8px; display: inline-block;">
+  <img width="806" height="442"
+       alt="schema scheletro"
+       src="https://github.com/user-attachments/assets/f5e10df2-d083-46f4-9fef-258eef5d9cd4" />
+</div>
 
 ---
 
