@@ -37,9 +37,9 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
    - `triggers.sql`
 3. Inizializzare il database con i dati di esempio:
 ```sql
-BEGIN
-  pk_gestione_centro.inserisci_valori_iniziali;
-END;
+   BEGIN
+     pk_gestione_centro.inserisci_valori_iniziali;
+   END;
 ```
 ---
 
