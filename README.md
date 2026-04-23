@@ -135,6 +135,12 @@ Definizione: insieme organizzativo di animati.
 ---
 
 ## 📌 Modello logico
+- ANIMATI(Codice tessera, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città, Gruppo:GRUPPI)
+- ANIMATORI(Codice fiscale, Codice ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Via, Civico, CAP, Città)
+- GRUPPI(Id, Nome, Annata, Numero Componenti, Codice sala)
+- EVENTI(Id, Nome, Data, Luogo, Costo)
+- ASSOCIAZIONI(Animato:ANIMATI, Evento:EVENTI)
+- ORGANIZZAZIONI(Animatore:ANIMATORI, Evento:EVENTI)
 
 ---
 
