@@ -156,9 +156,8 @@ Definizione: insieme organizzativo di animati.
 
 ## 📌 Vincoli di integrità referenziale
 
-|              Vincoli di integrità referenziale          |
-|-----------|---------------------------------------------|
 | Tra       | Di             | E              | Di        |
+|-----------|----------------|----------------|-----------|
 | gruppo    | animati        | id             | gruppi    |
 | animato   | associazioni   | codice tessera | animati   |
 | evento    | associazioni   | id             | eventi    |
