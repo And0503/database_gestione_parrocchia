@@ -144,7 +144,7 @@ Definizione: insieme organizzativo di animati.
 |-----------|---------------------------------------------------------|
 | v1        | un animatore può organizzare uno o più eventi           |
 | v2        | un evento può essere organizzato da uno o più animatori |
-| v3        | un animato può partecipare ad uno o più eventi          |
+| v3        | un animato può partecipare ad zero o più eventi          |
 | v4        | ad un evento possono partecipare uno o più animati      |
 | v5        | un animato appartiene ad uno ed un solo gruppo          |
 | v6        | ad un gruppo appartengono uno o più animati             |
