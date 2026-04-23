@@ -154,7 +154,7 @@ Definizione: insieme organizzativo di animati.
 
 ### 📌 Modello Entità-Relazione
 
-<img width="589" height="645" alt="diagcorr6 drawio" src="https://github.com/user-attachments/assets/c09d9420-d169-4575-b62b-18915255b3b3" />
+<img width="618" height="645" alt="diagcorr7 drawio" src="https://github.com/user-attachments/assets/c7fb8e44-0c4a-4b5a-8e6a-2521248692d1" />
 
 ---
 
