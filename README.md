@@ -10,13 +10,13 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 ---
 
 ---
-## 🛠️ Tecnologie
+### 🛠️ Tecnologie
 - Oracle Database 
 - PL/SQL
 ---
 
 ---
-## 🚀 Come eseguire il progetto
+### 🚀 Come eseguire il progetto
 1. Installare Oracle Database XE o accedere a SQL Developer
 2. Eseguire i file nell'ordine:
    - `tabelle.sql` — creazione tabelle e sequenze
@@ -30,7 +30,7 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 ---
 
 ---
-## 📁 Struttura del repo
+### 📁 Struttura del repo
 | File | Descrizione |
 |------|-------------|
 | `tabelle.sql` | DDL: tabelle, sequenze, vincoli FK |
