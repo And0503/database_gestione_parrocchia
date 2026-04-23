@@ -6,7 +6,7 @@ Sistema di gestione di eventi parrocchiali sviluppato in PL/SQL per Oracle Datab
 Include funzionalità di reportistica su affluenza e spese degli eventi.
 
 ---
-## 🚀 Guida tecnica
+## ⚙️ Guida tecnica
 ---
 
 ---
