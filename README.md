@@ -33,8 +33,8 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 2. Eseguire i file nell'ordine:
    - `schema.sql`
    - `package_gestione_centro.sql`
-   - `package_gestione_centro_app`
-   - 'triggers.sql'
+   - `package_gestione_centro_app.sql`
+   - `triggers.sql`
 3. Inizializzare il database con i dati di esempio:
 ```sql
    EXEC pk_gestione_centro.inserisci_valori_iniziali;
