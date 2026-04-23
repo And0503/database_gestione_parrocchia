@@ -17,28 +17,28 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 ---
 
 ---
+### 📁 Struttura del repo
+| File | Descrizione |
+|------|-------------|
+| `schema.sql` | DDL: tabelle, sequenze, vincoli FK |
+| `package_gestione_centro.sql` | Package per inizializzazione dati d'esempio e report base |
+| `package_gestione_centro_app.sql` | Package applicativo con logica di business |
+| `triggers.sql` | Trigger per integrità e aggiornamento contatori |
+
+---
+
+---
 ### 🚀 Come eseguire il progetto
 1. Installare una versione compatibile di Oracle Database
 2. Eseguire i file nell'ordine:
-   - `schema.sql` — creazione tabelle e sequenze
-   - `package_gestione_centro.sql` — package dati
-   - `package_gestione_centro_app` — package applicativo
-   - triggers.sql — trigger per vincoli di integrità e mantenimento della coerenza dei dati
+   - `schema.sql`
+   - `package_gestione_centro.sql`
+   - `package_gestione_centro_app`
+   - 'triggers.sql'
 3. Inizializzare il database con i dati di esempio:
 ```sql
    EXEC pk_gestione_centro.inserisci_valori_iniziali;
 ```
----
-
----
-### 📁 Struttura del repo
-| File | Descrizione |
-|------|-------------|
-| `tabelle.sql` | DDL: tabelle, sequenze, vincoli FK |
-| `package_dati.sql` | Package per inizializzazione e report base |
-| `package_app.sql` | Package applicativo con logica di business |
-| `triggers.sql` | Trigger per integrità e aggiornamento contatori |
-
 ---
 
 ---
