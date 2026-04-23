@@ -29,25 +29,30 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 
 ---
 ### 🚀 Come eseguire il progetto
-1. Installare una versione compatibile di Oracle Database
-2. Eseguire i file nell'ordine:
+1. Installare Oracle SQL developer ed una versione compatibile di Oracle Database
+2. 2. Aprire Oracle SQL Developer e collegarsi al database
+3. Eseguire i file nell'ordine:
    - `schema.sql`
    - `package_gestione_centro.sql`
    - `package_gestione_centro_app.sql`
    - `triggers.sql`
-3. Inizializzare il database con i dati di esempio:
+3. Attivare la visualizzazione dell’output:
+```sql
+SET SERVEROUTPUT ON;
+```
+4. Inizializzare il database con i dati di esempio:
 ```sql
 BEGIN
    pk_gestione_centro.inserisci_valori_iniziali;
 END;
 ```
-4. Per eseguire una qualsiasi procedura:
+5. Per eseguire una qualsiasi procedura:
 ```sql
 BEGIN
   nome_package.nome_procedura;
 END;
 ```
-5. Per eseguire una qualsiasi funzione:
+6. Per eseguire una qualsiasi funzione:
 ```sql
 SELECT nome_package.nome_funzione(parametri)
 FROM dual;
