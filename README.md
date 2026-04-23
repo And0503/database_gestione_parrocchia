@@ -185,12 +185,12 @@ Definizione: insieme organizzativo di animati.
 ---
 
 ### 📌 Modello logico
-- **ANIMATI**(Codice tessera, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città, Gruppo:GRUPPI)
-- **ANIMATORI**(Id, Ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città)
-- **GRUPPI**(Id, Nome, Annata, Numero Componenti, Sala)
-- **EVENTI**(Id, Nome, Data, Luogo, Costo, Quota)
-- **ASSOCIAZIONI**(Animato:ANIMATI, Evento:EVENTI)
-- **ORGANIZZAZIONI**(Animatore:ANIMATORI, Evento:EVENTI)
+- **ANIMATI**(**Codice tessera**, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città, Gruppo:GRUPPI)
+- **ANIMATORI**(**Id**, Ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città)
+- **GRUPPI**(**Id**, Nome, Annata, Numero Componenti, Sala)
+- **EVENTI**(**Id**, Nome, Data, Luogo, Costo, Quota)
+- **ASSOCIAZIONI**(**Animato**:ANIMATI, **Evento**:EVENTI)
+- **ORGANIZZAZIONI**(**Animatore**:ANIMATORI, **Evento**:EVENTI)
 
 ---
 
