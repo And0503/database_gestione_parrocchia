@@ -11,18 +11,19 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 
 ---
 ### 🛠️ Tecnologie
-- Oracle Database 
-- PL/SQL
+- Oracle SQL Developer
+- Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 (64-bit)
+- PL/SQL 11.2.0.1.0
 ---
 
 ---
 ### 🚀 Come eseguire il progetto
-1. Installare Oracle Database XE o accedere a SQL Developer
+1. Installare una versione compatibile di Oracle Database
 2. Eseguire i file nell'ordine:
-   - `tabelle.sql` — creazione tabelle e sequenze
-   - `package_dati.sql` — package pk_gestione_centro
-   - `package_app.sql` — package pk_gestione_centro_app
-   - `triggers.sql` — trigger di integrità
+   - `schema.sql` — creazione tabelle e sequenze
+   - `package_gestione_centro.sql` — package dati
+   - `package_gestione_centro_app` — package applicativo
+   - triggers.sql — trigger per vincoli di integrità e mantenimento della coerenza dei dati
 3. Inizializzare il database con i dati di esempio:
 ```sql
    EXEC pk_gestione_centro.inserisci_valori_iniziali;
