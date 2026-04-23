@@ -60,6 +60,20 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
+---
+
+## 📌 Dimensionamento
+
+| Entità    | Numero massimo occorrenze |
+|-----------|----------------------------|
+| Animatori | 30                         |
+| Animati   | max 250                    |
+| Gruppi    | 15                         |
+
+---
+
+---
+
 ## 📌 Schema scheletro
 
 <img width="567" height="532" alt="raffinamento" src="https://github.com/user-attachments/assets/efa57907-01b8-4f87-8f4c-29fa4da27373" />
@@ -130,17 +144,5 @@ Definizione: insieme organizzativo di animati.
 ## 📌 Schema della base dati
 
 <img width="1478" height="853" alt="schema base di dati" src="https://github.com/user-attachments/assets/57fe6d27-9f6e-417a-adf3-713e0df7f933" />
-
----
-
----
-
-## 📌 Dimensionamento
-
-| Entità    | Numero massimo occorrenze |
-|-----------|----------------------------|
-| Animatori | 30                         |
-| Animati   | max 250                    |
-| Gruppi    | 15                         |
 
 ---
