@@ -49,7 +49,7 @@ END;
 ```
 5. Per eseguire una qualsiasi funzione:
 ```sql
-SELECT nome_funzione(parametri)
+SELECT nome_package.nome_funzione(parametri)
 FROM dual;
 ```
 ---
