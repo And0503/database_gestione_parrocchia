@@ -44,7 +44,7 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 ## 📖 Progettazione
 ---
 
-## 📌 ENTITÀ
+### 📌 ENTITÀ
 
 ---
 
@@ -99,7 +99,7 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Dimensionamento
+### 📌 Dimensionamento
 
 | Entità    | Numero massimo occorrenze |
 |-----------|----------------------------|
@@ -111,7 +111,7 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Schema scheletro
+### 📌 Schema scheletro
 
 <img width="567" height="532" alt="raffinamento" src="https://github.com/user-attachments/assets/efa57907-01b8-4f87-8f4c-29fa4da27373" />
 
@@ -119,7 +119,7 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Vincoli
+### 📌 Vincoli
 
 | codice    | descrizione                                             |
 |-----------|---------------------------------------------------------|
@@ -134,7 +134,7 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Modello Entità-Relazione
+### 📌 Modello Entità-Relazione
 
 <img width="719" height="720" alt="modello ER" src="https://github.com/user-attachments/assets/a1f68815-70ea-41fa-9520-590c5c8e8b1a" />
 
@@ -142,7 +142,7 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Traduzione nel modello logico
+### 📌 Traduzione nel modello logico
 - L’associazione «Appartenenza», essendo di tipo uno a molti, si traduce inserendo nella relazione «Animati» l’identificatore dell’entità «Gruppo» come attributo.
 - L’associazione «Associazione», essendo di tipo molti a molti, si traduce in una relazione «Associazioni» avente come attributi gli identificatori delle due entità «Animato» ed «Evento». L’insieme di tali identificatori costituisce la chiave primaria della relazione.
 - L’associazione «Organizzazione», essendo di tipo molti a molti, si traduce in una relazione «Organizzazioni» avente come attributi gli identificatori delle due entità «Animatore» ed «Evento». L’insieme di tali identificatori costituisce la chiave primaria della relazione.
@@ -152,7 +152,7 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Vincoli di integrità referenziale
+### 📌 Vincoli di integrità referenziale
 
 | Tra       | Di             | E              | Di        |
 |-----------|----------------|----------------|-----------|
@@ -166,7 +166,7 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Modello logico
+### 📌 Modello logico
 - **ANIMATI**(Codice tessera, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città, Gruppo:GRUPPI)
 - **ANIMATORI**(Id, Ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città)
 - **GRUPPI**(Id, Nome, Annata, Numero Componenti, Sala)
@@ -178,7 +178,7 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Schema della base dati
+### 📌 Schema della base dati
 
 <img width="1478" height="853" alt="schema base di dati" src="https://github.com/user-attachments/assets/57fe6d27-9f6e-417a-adf3-713e0df7f933" />
 
