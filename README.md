@@ -19,19 +19,19 @@ Definizione: attività organizzata dagli animatori per gli animati.
 - Data
 - Luogo
 - Costo
-
+- Quota
 ---
 
 #### 🔹 Animatore
 Definizione: colui che organizza gli eventi.
 
 **Proprietà**
-- Codice fiscale
 - Nome
 - Cognome
 - Ruolo
 - Data di nascita
 - Luogo di nascita
+- Telefono  
 - Indirizzo
 
 ---
@@ -80,7 +80,6 @@ Definizione: insieme organizzativo di animati.
 
 | Entità    | Numero massimo occorrenze |
 |-----------|----------------------------|
-| Eventi    | max 25                     |
 | Animatori | 30                         |
 | Animati   | max 250                    |
 | Gruppi    | 15                         |
@@ -124,9 +123,9 @@ Definizione: insieme organizzativo di animati.
 
 ## 📌 Modello logico
 - **ANIMATI**(Codice tessera, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città, Gruppo:GRUPPI)
-- **ANIMATORI**(Id, Ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Via, Civico, CAP, Città)
+- **ANIMATORI**(Id, Ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città)
 - **GRUPPI**(Id, Nome, Annata, Numero Componenti, Sala)
-- **EVENTI**(Id, Nome, Data, Luogo, Costo)
+- **EVENTI**(Id, Nome, Data, Luogo, Costo, Quota)
 - **ASSOCIAZIONI**(Animato:ANIMATI, Evento:EVENTI)
 - **ORGANIZZAZIONI**(Animatore:ANIMATORI, Evento:EVENTI)
 
@@ -149,7 +148,7 @@ Definizione: insieme organizzativo di animati.
 | gruppo    | animati        | id             | gruppi    |
 | animato   | associazioni   | codice tessera | animati   |
 | evento    | associazioni   | id             | eventi    |
-| animatore | organizzazioni | codice fiscale | animatori |      
+| animatore | organizzazioni | id             | animatori |      
 | evento    | organizzazioni | id             | eventi    |
 
 ---
