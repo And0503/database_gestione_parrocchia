@@ -5,6 +5,33 @@ Sistema di gestione di eventi parrocchiali sviluppato in PL/SQL per Oracle Datab
 
 Include funzionalità di reportistica su affluenza e spese degli eventi.
 
+## 🚀 Guida tecnica
+## 🛠️ Tecnologie
+- Oracle Database 
+- PL/SQL
+
+## 🚀 Come eseguire il progetto
+1. Installare Oracle Database XE o accedere a SQL Developer
+2. Eseguire i file nell'ordine:
+   - `tabelle.sql` — creazione tabelle e sequenze
+   - `package_dati.sql` — package pk_gestione_centro
+   - `package_app.sql` — package pk_gestione_centro_app
+   - `triggers.sql` — trigger di integrità
+3. Inizializzare il database con i dati di esempio:
+```sql
+   EXEC pk_gestione_centro.inserisci_valori_iniziali;
+```
+
+## 📁 Struttura del repo
+| File | Descrizione |
+|------|-------------|
+| `tabelle.sql` | DDL: tabelle, sequenze, vincoli FK |
+| `package_dati.sql` | Package per inizializzazione e report base |
+| `package_app.sql` | Package applicativo con logica di business |
+| `triggers.sql` | Trigger per integrità e aggiornamento contatori |
+
+
+## 📖 Progettazione
 ---
 
 ## 📌 ENTITÀ
