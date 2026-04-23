@@ -40,7 +40,16 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 BEGIN
    pk_gestione_centro.inserisci_valori_iniziali;
 END;
-/
+4. Per eseguire una qualsiasi procedura:
+```sql
+BEGIN
+  nome_package.nome_procedura;
+END;
+5. Per eseguire una qualsiasi funzione:
+```sql
+SELECT nome_funzione(parametri)
+FROM dual;
+
 ```
 ---
 
