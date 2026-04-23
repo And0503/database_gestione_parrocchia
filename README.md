@@ -68,33 +68,6 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
-## 📌 Dimensionamento
-
-| Entità    | Numero massimo occorrenze |
-|-----------|----------------------------|
-| Animatori | 30                         |
-| Animati   | max 250                    |
-| Gruppi    | 15                         |
-
----
-
----
-
-## 📌 Vincoli
-
-| codice    | descrizione                                             |
-|-----------|---------------------------------------------------------|
-| v1        | un animatore può organizzare uno o più eventi           |
-| v2        | un evento può essere organizzato da uno o più animatori |
-| v3        | un animato può partecipare ad uno o più eventi          |
-| v4        | ad un evento possono partecipare uno o più animati      |
-| v5        | un animato appartiene ad uno ed un solo gruppo          |
-| v6        | ad un gruppo appartengono uno o più animati             |
-
----
-
----
-
 ## 📌 Modello Entità-Relazione
 
 <img width="719" height="720" alt="modello ER" src="https://github.com/user-attachments/assets/a1f68815-70ea-41fa-9520-590c5c8e8b1a" />
@@ -128,6 +101,33 @@ Definizione: insieme organizzativo di animati.
 ## 📌 Schema della base dati
 
 <img width="1478" height="853" alt="schema base di dati" src="https://github.com/user-attachments/assets/57fe6d27-9f6e-417a-adf3-713e0df7f933" />
+
+---
+
+---
+
+## 📌 Vincoli
+
+| codice    | descrizione                                             |
+|-----------|---------------------------------------------------------|
+| v1        | un animatore può organizzare uno o più eventi           |
+| v2        | un evento può essere organizzato da uno o più animatori |
+| v3        | un animato può partecipare ad uno o più eventi          |
+| v4        | ad un evento possono partecipare uno o più animati      |
+| v5        | un animato appartiene ad uno ed un solo gruppo          |
+| v6        | ad un gruppo appartengono uno o più animati             |
+
+---
+
+---
+
+## 📌 Dimensionamento
+
+| Entità    | Numero massimo occorrenze |
+|-----------|----------------------------|
+| Animatori | 30                         |
+| Animati   | max 250                    |
+| Gruppi    | 15                         |
 
 ---
 
