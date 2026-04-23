@@ -199,8 +199,6 @@ Definizione: insieme organizzativo di animati.
 
 ### 📌 Schema della base dati
 
-<img width="977" height="553" alt="diagcorr3 drawio" src="https://github.com/user-attachments/assets/083a35b0-8081-4890-b2d6-5fb91aac505e" />
-
----
+<img width="1016" height="575" alt="diagcorr4 drawio" src="https://github.com/user-attachments/assets/051c2822-f7c2-4d50-a02f-fb7f56124347" />
 
 ---
