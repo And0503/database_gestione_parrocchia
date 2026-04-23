@@ -46,11 +46,11 @@ END;
 BEGIN
   nome_package.nome_procedura;
 END;
+```
 5. Per eseguire una qualsiasi funzione:
 ```sql
 SELECT nome_funzione(parametri)
 FROM dual;
-
 ```
 ---
 
