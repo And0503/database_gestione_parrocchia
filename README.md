@@ -101,6 +101,20 @@ Definizione: insieme organizzativo di animati.
 
 ---
 
+## 📌 Vincoli di integrità referenziale
+
+| Tra       | Di             | E              | Di        |
+|-----------|----------------|----------------|-----------|
+| gruppo    | animati        | id             | gruppi    |
+| animato   | associazioni   | codice tessera | animati   |
+| evento    | associazioni   | id             | eventi    |
+| animatore | organizzazioni | id             | animatori |      
+| evento    | organizzazioni | id             | eventi    |
+
+---
+
+---
+
 ## 📌 Modello logico
 - **ANIMATI**(Codice tessera, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città, Gruppo:GRUPPI)
 - **ANIMATORI**(Id, Ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città)
@@ -128,19 +142,5 @@ Definizione: insieme organizzativo di animati.
 | Animatori | 30                         |
 | Animati   | max 250                    |
 | Gruppi    | 15                         |
-
----
-
----
-
-## 📌 Vincoli di integrità referenziale
-
-| Tra       | Di             | E              | Di        |
-|-----------|----------------|----------------|-----------|
-| gruppo    | animati        | id             | gruppi    |
-| animato   | associazioni   | codice tessera | animati   |
-| evento    | associazioni   | id             | eventi    |
-| animatore | organizzazioni | id             | animatori |      
-| evento    | organizzazioni | id             | eventi    |
 
 ---
