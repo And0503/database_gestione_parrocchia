@@ -113,10 +113,10 @@ Definizione: insieme organizzativo di animati.
 ---
 
 ## 📌 Traduzione nel modello logico
-  - L’associazione «Appartenenza», essendo di tipo uno a molti, si traduce inserendo nella relazione «Animati» l’identificatore dell’entità «Gruppo» come attributo.
-  - L’associazione «Associazione», essendo di tipo molti a molti, si traduce in una relazione «Associazioni» avente come attributi gli identificatori delle due entità «Animato» ed «Evento». L’insieme di tali identificatori costituisce la chiave primaria della relazione.
-  - L’associazione «Organizzazione», essendo di tipo molti a molti, si traduce in una relazione «Organizzazioni» avente come attributi gli identificatori delle due entità «Animatore» ed «Evento». L’insieme di tali identificatori costituisce la chiave primaria della relazione.
-  - Risoluzione dell’attributo composto «Indirizzo» delle entità «Animato» e «Animatore» negli attributi «Via», «Civico», «CAP» e «Città» inseriti nelle rispettive relazioni.
+- L’associazione «Appartenenza», essendo di tipo uno a molti, si traduce inserendo nella relazione «Animati» l’identificatore dell’entità «Gruppo» come attributo.
+- L’associazione «Associazione», essendo di tipo molti a molti, si traduce in una relazione «Associazioni» avente come attributi gli identificatori delle due entità «Animato» ed «Evento». L’insieme di tali identificatori costituisce la chiave primaria della relazione.
+- L’associazione «Organizzazione», essendo di tipo molti a molti, si traduce in una relazione «Organizzazioni» avente come attributi gli identificatori delle due entità «Animatore» ed «Evento». L’insieme di tali identificatori costituisce la chiave primaria della relazione.
+- Risoluzione dell’attributo composto «Indirizzo» delle entità «Animato» e «Animatore» negli attributi «Via», «Civico», «CAP» e «Città» inseriti nelle rispettive relazioni.
 
 ---
 
@@ -135,12 +135,12 @@ Definizione: insieme organizzativo di animati.
 ---
 
 ## 📌 Modello logico
-- ANIMATI(Codice tessera, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città, Gruppo:GRUPPI)
-- ANIMATORI(Codice fiscale, Codice ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Via, Civico, CAP, Città)
-- GRUPPI(Id, Nome, Annata, Numero Componenti, Codice sala)
-- EVENTI(Id, Nome, Data, Luogo, Costo)
-- ASSOCIAZIONI(Animato:ANIMATI, Evento:EVENTI)
-- ORGANIZZAZIONI(Animatore:ANIMATORI, Evento:EVENTI)
+- **ANIMATI**(Codice tessera, Nome, Cognome, Data di nascita, Luogo di nascita, Telefono, Via, Civico, CAP, Città, Gruppo:GRUPPI)
+- **ANIMATORI**(Codice fiscale, Codice ruolo, Nome, Cognome, Data di nascita, Luogo di nascita, Via, Civico, CAP, Città)
+- **GRUPPI**(Id, Nome, Annata, Numero Componenti, Codice sala)
+- **EVENTI**(Id, Nome, Data, Luogo, Costo)
+- **ASSOCIAZIONI**(Animato:ANIMATI, Evento:EVENTI)
+- **ORGANIZZAZIONI**(Animatore:ANIMATORI, Evento:EVENTI)
 
 ---
 
