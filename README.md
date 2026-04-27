@@ -20,7 +20,7 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 | File | Descrizione |
 |------|-------------|
 | `schema.sql` | DDL: tabelle, sequenze, vincoli FK |
-| `package_gestione_centro.sql` | Package per inizializzazione dati d'esempio e report base |
+| `package_gestione_centro.sql` | Package per inizializzazione dati di esempio e report base |
 | `package_gestione_centro_app.sql` | Package applicativo con logica di business |
 | `triggers.sql` | Trigger per integrità e aggiornamento contatori |
 
