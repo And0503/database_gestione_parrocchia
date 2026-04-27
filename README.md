@@ -6,9 +6,9 @@ Include funzionalità di reportistica su affluenza e spese degli eventi.
 
 ---
 ## 👥 Autori
-Andrea Tito - https://github.com/And0503 
-Gaetano Ruocco - https://github.com/gaetanor
-Flavio Soldatini - https://github.com/FlavioSol
+- Andrea Tito - https://github.com/And0503 
+- Gaetano Ruocco - https://github.com/gaetanor
+- Flavio Soldatini - https://github.com/FlavioSol
 ---
 
 ---
