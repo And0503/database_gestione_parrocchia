@@ -5,6 +5,13 @@ Sistema gestionale di eventi parrocchiali sviluppato in PL/SQL per Oracle Databa
 Include funzionalità di reportistica su affluenza e spese degli eventi.
 
 ---
+## 👥 Autori
+Andrea Tito - https://github.com/And0503 
+Gaetano Ruocco - https://github.com/gaetanor
+Flavio Soldatini - https://github.com/FlavioSol
+---
+
+---
 ## ⚙️ Guida tecnica
 ---
 
